@@ -27,13 +27,17 @@ LlamaCompass is an intelligent governance platform that embeds enterprise securi
 ## Key Components
 
 Key Features
-- 🔧 Custom Llama Fine-tuning
+ **🔧 Custom Llama Fine-tuning**
 Fine-tune Llama models using curated company-specific security policies, compliance frameworks, and organizational coding standards
-🔄 Synthetic Data Generation
+
+**🔄 Synthetic Data Generation**
 Deploy Llama Synthetic Data Generator to create comprehensive training datasets covering diverse security scenarios and compliance edge cases
-🔍 Repository Security Scanning
+
+**🔍 Repository Security Scanning**
 Continuously scan both private and public GitHub repositories to identify compliance violations, security vulnerabilities, and policy deviations
-⚡ Automated Remediation Planning
+
+**⚡ Automated Remediation Planning**
 Generate detailed remediation strategies with prioritized action items, code suggestions, and compliance pathways for identified issues
-📊 Agentic System Performance Assessment
+
+**📊 Agentic System Performance Assessment**
 Monitor, analyze, and optimize multiagent system interactions through intelligent trace analysis and behavioral pattern recognition
