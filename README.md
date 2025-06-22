@@ -70,3 +70,20 @@ Monitor, analyze, and optimize multiagent system interactions through intelligen
 - Deeksha Sinha - [Github](https://github.com/DeekshaSinha05)
 - Kal Chakra - [Github](https://github.com/kalchakra13)
 
+## Getting Started
+1. **Cloning Repo**
+   ```bash
+   git clone https://github.com/anigasan/LlamaCompass
+   cd LlamaCompass
+3. **Backend**
+   ```bash
+   cd backend
+   python main.py
+   ```
+4. **Frontend**
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+
+
