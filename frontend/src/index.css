@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --card: 227 242 253;
+    --card-foreground: 15 23 42;
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+    --primary: 37 99 235;
+    --primary-foreground: 255 255 255;
+    --secondary: 241 245 249;
+    --secondary-foreground: 15 23 42;
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    --accent: 241 245 249;
+    --accent-foreground: 15 23 42;
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 37 99 235;
+    --chart-1: 59 130 246;
+    --chart-2: 16 185 129;
+    --chart-3: 245 158 11;
+    --chart-4: 239 68 68;
+    --chart-5: 168 85 247;
+    --radius: 0.75rem;
+  }
+  
+  .dark {
+    --background: 2 6 23;
+    --foreground: 248 250 252;
+    --card: 3 7 24;
+    --card-foreground: 248 250 252;
+    --popover: 3 7 24;
+    --popover-foreground: 248 250 252;
+    --primary: 59 130 246;
+    --primary-foreground: 2 6 23;
+    --secondary: 15 23 42;
+    --secondary-foreground: 248 250 252;
+    --muted: 15 23 42;
+    --muted-foreground: 148 163 184;
+    --accent: 15 23 42;
+    --accent-foreground: 248 250 252;
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+    --border: 30 41 59;
+    --input: 30 41 59;
+    --ring: 59 130 246;
+    --chart-1: 59 130 246;
+    --chart-2: 16 185 129;
+    --chart-3: 245 158 11;
+    --chart-4: 239 68 68;
+    --chart-5: 168 85 247;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-white text-foreground font-inter;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  .sidebar-transition {
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .dark-blue-header {
+    color: #1a237e;
+  }
+}
