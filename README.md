@@ -26,7 +26,6 @@ LlamaCompass is an intelligent governance platform that embeds enterprise securi
 
 ## Key Components
 
-Key Features
  **🔧 Custom Llama Fine-tuning**
 Fine-tune Llama models using curated company-specific security policies, compliance frameworks, and organizational coding standards
 
@@ -41,3 +40,26 @@ Generate detailed remediation strategies with prioritized action items, code sug
 
 **📊 Agentic System Performance Assessment**
 Monitor, analyze, and optimize multiagent system interactions through intelligent trace analysis and behavioral pattern recognition
+
+## Tech Stack
+
+### Llama Model and Toolkit
+- **Llama-4-Maverick-17B-128E-Instruct-FP8** - Base Model used
+- **Llama Synethic Data Generator Toolkit**
+- **Llama API**
+
+
+### Backend & API
+
+- **FastAPI** - High-performance API framework
+- **Uvicorn** - ASGI server for FastAPI
+- **Pydantic** - Data validation and serialization
+- **CrewAI** - Agentic Orchestration
+- **Traces** - For agentic system performance
+
+### Frontend
+
+- **VITE**
+- **React JS**
+- **Shadcn**
+- **Bootstrap**
