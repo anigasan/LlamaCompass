@@ -65,8 +65,8 @@ Monitor, analyze, and optimize multiagent system interactions through intelligen
 - **Bootstrap**
 
 ## Team
-- Kal Chakra, github: https://github.com/kalchakra13
-- Srisurya Chandramouli, github: https://github.com/csrisurya
-- Deeksha Sinha, github: https://github.com/DeekshaSinha05
-- Ananya Gangavarupu, github: https://github.com/anigasan
+- Ananya Gangavarupu - [Github](https://github.com/anigasan)
+- Srisurya Chandramouli - [Github](https://github.com/csrisurya)
+- Deeksha Sinha - [Github](https://github.com/DeekshaSinha05)
+- Kal Chakra - [Github](https://github.com/kalchakra13)
 
